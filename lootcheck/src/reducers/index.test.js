@@ -1,7 +1,7 @@
-import rootReducer from './index';
+import rootReducer from "./index";
 
-describe('rootReducer', ()=>{
-	it('initializes the default state', ()=> {
-		expect(rootReducer({}, {})).toEqual({ balance: 0, bitcoin: {}});
-	});
-})
+describe("rootReducer", () => {
+  it("initializes the default state", () => {
+    expect(rootReducer({}, {})).toEqual({ balance: 0, bitcoin: {} });
+  });
+});
